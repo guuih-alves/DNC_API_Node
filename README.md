@@ -18,18 +18,22 @@ https://github.com/guuih-alves/DNC_API_React
 //ROTAS
 
 // Rota para enviar requisição via API para o banco de dados
+
 app.post('/livros', async (req, res) => {
 })   
 
 // Rota para buscar dados via API do banco de dados
+
 app.get('/livros', async(req, res) => {
 })
 
 // Rota para atualizar via API dados do banco de dados
+
 app.put('/livros/:id', async (req, res) => {
 })  
 
 // Rota para remover via API dados do banco de dados
+
 app.delete('/livros/:id', async(req, res) => {
 })
 
