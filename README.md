@@ -3,7 +3,7 @@ rid #176841
 *Obs: Tornou-se necessário algumas modificações no documento original do React, o mesmo atualizado segue no endereço abaixo:
 https://github.com/guuih-alves/DNC_API_React
 
-// INSTRUÇÕES
+-- INSTRUÇÕES --
 
 1 - node --watch server.js : Toda vez que houver atualização o servidor ira reiniciar
 
@@ -15,7 +15,7 @@ https://github.com/guuih-alves/DNC_API_React
 
 2 -npm run dev : Para rodar o projeto vite
 
-//ROTAS
+-- ROTAS --
 
 
 
