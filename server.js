@@ -31,15 +31,6 @@ app.get('/livros', async(req, res) => {
     res.status(200).json(users)
 })
 
-
-/*
-app.get('/livros/:id',async (req, res) => {
-    const {id} = req.params;
-    const users = await prisma.user.findUnique()
-    res.status(200).json(users)
-}) */
-
-
 app.put('/livros/:id', async (req, res) => {
 
    await prisma.user.update({
