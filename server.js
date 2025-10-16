@@ -8,7 +8,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-
+// Rota utilizada para enviar requisição a API
 app.post('/livros', async (req, res) => {
     
    await prisma.user.create({
@@ -25,21 +25,14 @@ app.post('/livros', async (req, res) => {
     res.status(201).json(req.body)
 })
 
+// Rota utilizada para buscar informações da API
 app.get('/livros', async(req, res) => {
 
    const users = await prisma.user.findMany()
     res.status(200).json(users)
 })
 
-
-/*
-app.get('/livros/:id',async (req, res) => {
-    const {id} = req.params;
-    const users = await prisma.user.findUnique()
-    res.status(200).json(users)
-}) */
-
-
+// Rota utilizada para atualizar dados na API
 app.put('/livros/:id', async (req, res) => {
 
    await prisma.user.update({
@@ -57,6 +50,7 @@ app.put('/livros/:id', async (req, res) => {
     res.status(201).json(req.body)
 })  
 
+// Rota utilizada para remover dados da API
 app.delete('/livros/:id', async(req, res) => {
     await prisma.user.delete({
         where: {
