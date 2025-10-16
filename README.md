@@ -1,19 +1,19 @@
 rid #176841
 
-*Obs: Tornou-se necessário algumas modificações no documento original do React, o mesmo atualizado segue no endereço abaixo:
+*Obs: Tornou-se necessário algumas modificações no documento original do React FrontEnd, o mesmo atualizado segue no endereço abaixo:
 https://github.com/guuih-alves/DNC_API_React
 
--- INSTRUÇÕES --
 
-1 - node --watch server.js : Toda vez que houver atualização o servidor ira reiniciar
+-- INSTRUÇÕES BACKEND --
 
-2- npx prisma init --datasource-provider mongodb --output ../generated/prisma: inicializa um novo projeto Prisma ORM
+1 - node --watch server.js : Para iniciar servidor no localhost
 
-
------- FRONT END - REACT
+2- npx prisma studio - Para visualizar dados salvos via API em um banco de dados MongoDB
 
 
-2 -npm run dev : Para rodar o projeto vite
+-- INSTRUÇÕES FRONT END - REACT
+
+1 -npm run dev : Para executar a page do projeto React
 
 -- ROTAS --
 
