@@ -1,0 +1,27 @@
+// INSTRUÇÕES BACKEND // (node_api)
+
+1- npm i axios : Instalação da biblioteca Axios no projeto Node para realizar requisições
+
+2 - npm i express - Instalação do pacote NodeJs. Express
+
+3 - npm i cors : Instalação do pacote Cors no projeto Node.js
+
+4 - node --watch server.js : Para iniciar servidor no localhost
+
+5 - npm install @prisma/client : Utilizado para instalar a biblioteca Prisma no lado cliente para requisições em Node
+
+6- npx prisma db push - Enviar o Esquema de dados do banco com servidor.
+
+7 - npx prisma studio - Para visualizar dados salvos via API em um banco de dados MongoDB
+
+
+
+
+// INSTRUÇÕES FRONT END - REACT //  (projeto_react-dnc)
+
+1 - npm create vite@latest -- --template react : Criação do projeto React
+
+2 -npm run dev : Para executar a page do projeto React no localhost
+
+3- Banco de dados:
+DATABASE_URL="mongodb+srv://guialves_db:RmDdQqWnl49hb4gA@livros.hy99gzw.mongodb.net/livros?retryWrites=true&w=majority&appName=livros"
